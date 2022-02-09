@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{484C3F89-3271-4003-8501-A870DC406CD6}">
+				<TypeInfo Item0="{67C23FAA-AD14-48C3-805E-508119683CA4}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{C5B63B8E-0930-4F58-A86E-55BA4D18C6F0}">
+						<TypeInfo Item0="{6EDBC3BB-5C18-493D-9389-5D8B8F4530AF}" />
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageIndoZambiaBank" Key="{26CF5B56-E1F5-4D8B-9C28-2362C4EC5CF9}">
+								<Image FileName="-1181578110" Left="8" Top="79" Right="1374" Bottom="736" />
+								<TypeInfo Item0="{2B1F057C-113C-450D-B005-59B54878D16E}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://41.215.180.245:8085/Retail/*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeIndoZambiaBank" Key="{D89CDE66-AB36-4469-8CCD-8B6E32580A00}">
+										<Image FileName="-1181578110" Left="343" Top="96" Right="588" Bottom="116" />
+										<TypeInfo Item0="{5040511F-EEBD-401E-B6FD-0C6D4ECC0937}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h6[.=&apos;INDO ZAMBIA BANK&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h6" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxUsername" Key="{F6387EDB-0CDD-4A3B-A10F-E9319AA7C21A}">
+										<Image FileName="-1024034181" Left="123" Top="337" Right="443" Bottom="382" />
+										<TypeInfo Item0="{56AE9930-EC5D-466A-B807-250D5447891A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;username&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{23E2802E-478D-43B3-AE4F-946603C57137}">
+										<Image FileName="581318715" Left="123" Top="421" Right="443" Bottom="466" />
+										<TypeInfo Item0="{56AE9930-EC5D-466A-B807-250D5447891A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[3]//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[3]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonLogin" Key="{323FB72F-5476-46CD-B41D-828E7C45DB0F}">
+										<Image FileName="1110168374" Left="123" Top="535" Right="435" Bottom="580" />
+										<TypeInfo Item0="{A16F6C06-FD61-48CB-9FCF-815CE29CD8F5}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Login&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;neo-btn-new-design&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{D720BC08-181F-411C-8D64-D8A29F601B43}">
+										<Image FileName="-798776619" Left="705" Top="474" Right="1078" Bottom="516" />
+										<TypeInfo Item0="{5040511F-EEBD-401E-B6FD-0C6D4ECC0937}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[.=&apos;Internal account transfer Beneficiary Added Successfully&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[contains(@class, &apos;mt-4&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Layout&apos;]//p" />
+											</Selector>
+											<Selector>
+												<Value Value="//p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkTransfers" Key="{67569352-6C52-41B4-BCF0-FB4C3CE5168F}">
+										<Image FileName="896809626" Left="207" Top="522" Right="427" Bottom="586" />
+										<TypeInfo Item0="{E1D8ED1A-08E3-427F-8336-B10DC9B0A61E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Transfers&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Layout&apos;]//a[4]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[4]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelAddBeneficiary" Key="{D06B9AF0-E727-425F-9070-4E61B5138F32}">
+										<Image FileName="-2051188829" Left="622" Top="239" Right="789" Bottom="407" />
+										<TypeInfo Item0="{E1D8ED1A-08E3-427F-8336-B10DC9B0A61E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;Layout&apos;]//div[2]/div[2]/div[2]/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]/div[2]/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeInternalBeneficiary" Key="{A070B136-2FE3-40B9-9BD6-186F367AF221}">
+										<Image FileName="-346211036" Left="642" Top="368" Right="769" Bottom="404" />
+										<TypeInfo Item0="{E1D8ED1A-08E3-427F-8336-B10DC9B0A61E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h2[.=&apos;Internal Beneficiary&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Layout&apos;]//h2" />
+											</Selector>
+											<Selector>
+												<Value Value="//h2" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxConfirmaccountnumber" Key="{D8995150-802C-4441-ACA4-6FDFB563326A}">
+										<Image FileName="-1502977280" Left="697" Top="504" Right="1070" Bottom="549" />
+										<TypeInfo Item0="{56AE9930-EC5D-466A-B807-250D5447891A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;confirmAccountNumber&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Layout&apos;]//form/div[2]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxTransferamount" Key="{59035B77-BAD6-484B-B636-40B96F5AF3C7}">
+										<Image FileName="641967875" Left="697" Top="586" Right="1070" Bottom="631" />
+										<TypeInfo Item0="{56AE9930-EC5D-466A-B807-250D5447891A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;transferAmount&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]/div[2]//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Layout&apos;]//form/div[2]/div[2]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]/div[2]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxDigit2" Key="{F0EDD3C0-610F-41C4-AD49-74FDA31D5421}">
+										<Image FileName="758489819" Left="827" Top="338" Right="875" Bottom="386" />
+										<TypeInfo Item0="{56AE9930-EC5D-466A-B807-250D5447891A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Layout&apos;]//div[2]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxDigit3" Key="{943A9021-E621-48C1-8F6C-A5AA6953F629}">
+										<Image FileName="232719241" Left="891" Top="338" Right="939" Bottom="386" />
+										<TypeInfo Item0="{56AE9930-EC5D-466A-B807-250D5447891A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[3]/input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Layout&apos;]//div[3]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxDigit4" Key="{9F4A5844-8B12-48EB-834B-098F7F9640CA}">
+										<Image FileName="1307789324" Left="955" Top="338" Right="1003" Bottom="386" />
+										<TypeInfo Item0="{56AE9930-EC5D-466A-B807-250D5447891A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[4]/input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Layout&apos;]//div[4]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageMedia" Key="{D08DEEB2-A4E0-4146-9877-482B6176BB20}">
+										<Image FileName="2098086335" Left="866" Top="443" Right="918" Bottom="483" />
+										<TypeInfo Item0="{E1D8ED1A-08E3-427F-8336-B10DC9B0A61E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[5]/img[contains(@src, &apos;media&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Layout&apos;]//div[5]/img" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelDemo" Key="{D7F8F78B-38B8-41FE-908F-DE356456EC9C}">
+										<Image FileName="-667935524" Left="895" Top="344" Right="1019" Bottom="456" />
+										<TypeInfo Item0="{E1D8ED1A-08E3-427F-8336-B10DC9B0A61E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Demo&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Layout&apos;]//div[2]/div[2]/div[2]/div[2]//div[3]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]/div[2]/div[2]//div[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonDeleteBeneficiary" Key="{7329693A-99A5-4DBC-B84E-4D9CFE036131}">
+										<Image FileName="2005430446" Left="898" Top="620" Right="1070" Bottom="665" />
+										<TypeInfo Item0="{A16F6C06-FD61-48CB-9FCF-815CE29CD8F5}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Delete Beneficiary&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/div[2]/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/button[contains(@class, &apos;neo-btn-new-design&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Layout&apos;]//div[4]/div[2]/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/div[2]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2" Key="{CDD4AD7D-35FC-453B-9729-525EDC7B94C3}">
+										<Image FileName="-596456318" Left="705" Top="474" Right="1078" Bottom="516" />
+										<TypeInfo Item0="{5040511F-EEBD-401E-B6FD-0C6D4ECC0937}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[.=&apos;Internal account transfer Beneficiary Added Successfully&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[contains(@class, &apos;mt-4&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Layout&apos;]//p" />
+											</Selector>
+											<Selector>
+												<Value Value="//p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeViewYourBeneficiaryDetai" Key="{0710E5A5-27D7-4433-9D14-380F6C726946}">
+										<Image FileName="352156947" Left="829" Top="340" Right="956" Bottom="400" />
+										<TypeInfo Item0="{E1D8ED1A-08E3-427F-8336-B10DC9B0A61E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;View your Beneficiary Details&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Layout&apos;]//div[2]/div/div[2]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div[2]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelInstantTransfer" Key="{E3F0199A-56B7-4BBA-8000-BC28BCE44369}">
+										<Image FileName="1160328074" Left="622" Top="225" Right="789" Bottom="393" />
+										<TypeInfo Item0="{E1D8ED1A-08E3-427F-8336-B10DC9B0A61E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;Layout&apos;]//div[2]/div[2]/div[2]/div/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]/div[2]/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="selectAccounttype" Key="{907E5069-E79E-4B8D-86E3-BA8173CFBDAB}">
+										<Image FileName="561045420" Left="697" Top="400" Right="1070" Bottom="445" />
+										<TypeInfo Item0="{C2FA1965-D3B7-4B4F-955B-9A1A9016AF5B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//select[@name=&apos;accountType&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//select[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Layout&apos;]//form//select" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxTxnamount" Key="{DCA70408-6E2C-4635-A487-1CE5D293A59C}">
+										<Image FileName="1028722278" Left="697" Top="647" Right="1070" Bottom="692" />
+										<TypeInfo Item0="{56AE9930-EC5D-466A-B807-250D5447891A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;txnAmount&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[5]//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Layout&apos;]//form/div[5]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[5]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="selectRemarks" Key="{7E5308C6-C6F6-4DBD-B5B3-25A90045B1B7}">
+										<Image FileName="-1868740167" Left="697" Top="530" Right="1070" Bottom="575" />
+										<TypeInfo Item0="{C2FA1965-D3B7-4B4F-955B-9A1A9016AF5B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//select[@name=&apos;remarks&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[6]//select[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Layout&apos;]//form/div[6]//select" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[6]//select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxCustomremarks" Key="{1E59AB9D-0FE9-4418-AA85-A9B0FC545D2F}">
+										<Image FileName="101871294" Left="697" Top="612" Right="1070" Bottom="657" />
+										<TypeInfo Item0="{56AE9930-EC5D-466A-B807-250D5447891A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;customRemarks&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[7]//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Layout&apos;]//form/div[7]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[7]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BrowserWindow" Key="{D9061BF2-EC96-47D6-870F-390D3AE52B76}">
+								<Image FileName="-1024034181" Left="-8" Top="-8" Right="1374" Bottom="736" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{C5B63B8E-0930-4F58-A86E-55BA4D18C6F0}">
+			<Child Name="pageIndoZambiaBank" Owner="{26CF5B56-E1F5-4D8B-9C28-2362C4EC5CF9}">
+				<Child Name="textnodeIndoZambiaBank" Owner="{D89CDE66-AB36-4469-8CCD-8B6E32580A00}" />
+				<Child Name="textboxUsername" Owner="{F6387EDB-0CDD-4A3B-A10F-E9319AA7C21A}" />
+				<Child Name="passwordboxPassword" Owner="{23E2802E-478D-43B3-AE4F-946603C57137}" />
+				<Child Name="buttonLogin" Owner="{323FB72F-5476-46CD-B41D-828E7C45DB0F}" />
+				<Child Name="textnode" Owner="{D720BC08-181F-411C-8D64-D8A29F601B43}" />
+				<Child Name="linkTransfers" Owner="{67569352-6C52-41B4-BCF0-FB4C3CE5168F}" />
+				<Child Name="panelAddBeneficiary" Owner="{D06B9AF0-E727-425F-9070-4E61B5138F32}" />
+				<Child Name="textnodeInternalBeneficiary" Owner="{A070B136-2FE3-40B9-9BD6-186F367AF221}" />
+				<Child Name="textboxConfirmaccountnumber" Owner="{D8995150-802C-4441-ACA4-6FDFB563326A}" />
+				<Child Name="textboxTransferamount" Owner="{59035B77-BAD6-484B-B636-40B96F5AF3C7}" />
+				<Child Name="passwordboxDigit2" Owner="{F0EDD3C0-610F-41C4-AD49-74FDA31D5421}" />
+				<Child Name="passwordboxDigit3" Owner="{943A9021-E621-48C1-8F6C-A5AA6953F629}" />
+				<Child Name="passwordboxDigit4" Owner="{9F4A5844-8B12-48EB-834B-098F7F9640CA}" />
+				<Child Name="imageMedia" Owner="{D08DEEB2-A4E0-4146-9877-482B6176BB20}" />
+				<Child Name="panelDemo" Owner="{D7F8F78B-38B8-41FE-908F-DE356456EC9C}" />
+				<Child Name="buttonDeleteBeneficiary" Owner="{7329693A-99A5-4DBC-B84E-4D9CFE036131}" />
+				<Child Name="textnode2" Owner="{CDD4AD7D-35FC-453B-9729-525EDC7B94C3}" />
+				<Child Name="textnodeViewYourBeneficiaryDetai" Owner="{0710E5A5-27D7-4433-9D14-380F6C726946}" />
+				<Child Name="panelInstantTransfer" Owner="{E3F0199A-56B7-4BBA-8000-BC28BCE44369}" />
+				<Child Name="selectAccounttype" Owner="{907E5069-E79E-4B8D-86E3-BA8173CFBDAB}" />
+				<Child Name="textboxTxnamount" Owner="{DCA70408-6E2C-4635-A487-1CE5D293A59C}" />
+				<Child Name="selectRemarks" Owner="{7E5308C6-C6F6-4DBD-B5B3-25A90045B1B7}" />
+				<Child Name="textboxCustomremarks" Owner="{1E59AB9D-0FE9-4418-AA85-A9B0FC545D2F}" />
+			</Child>
+			<Child Name="BrowserWindow" Owner="{D9061BF2-EC96-47D6-870F-390D3AE52B76}" />
+		</Child>
+	</LogicalNodes>
+</Root>

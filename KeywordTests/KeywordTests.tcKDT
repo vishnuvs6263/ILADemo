@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="Login" key="{2F4A75AA-BABA-4554-B5AD-A4B0088F07B4}" path="Login.tcKDTest" />
+		<child name="Add_Beneficiary_Scenario" key="{1A4EE05F-E2F9-4451-AC25-D41EBCA3DA0E}" path="Add_Beneficiary_Scenario.tcKDTest" />
+		<child name="Delete_Add_Beneficiary" key="{11A2E815-6C51-4026-8917-ACEBA2C1CFED}" path="Delete_Add_Beneficiary.tcKDTest" />
+	</children>
+</Root>

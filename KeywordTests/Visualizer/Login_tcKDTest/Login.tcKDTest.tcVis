@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{2F4A75AA-BABA-4554-B5AD-A4B0088F07B4}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="44600.2946412037" objectName="Aliases.browser.pageIndoZambiaBank.textboxUsername" objectLeft="123" objectTop="337" objectRight="443" objectBottom="382" clickPointX="352" clickPointY="365" imageFileName="tcvi438420322960.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="44600.2946759259" objectName="Aliases.browser.pageIndoZambiaBank.textboxUsername" objectLeft="123" objectTop="337" objectRight="443" objectBottom="382" clickPointX="-1" clickPointY="-1" imageFileName="tcvi438721822961.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="44600.2947222222" objectName="Aliases.browser.pageIndoZambiaBank.passwordboxPassword" objectLeft="123" objectTop="421" objectRight="443" objectBottom="466" clickPointX="312" clickPointY="453" imageFileName="tcvi439092122962.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="44600.2947569444" objectName="Aliases.browser.pageIndoZambiaBank.passwordboxPassword" objectLeft="123" objectTop="421" objectRight="443" objectBottom="466" clickPointX="-1" clickPointY="-1" imageFileName="tcvi439285922963.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="7" kind="0" dateTime="44600.2947800926" objectName="Aliases.browser.pageIndoZambiaBank.buttonLogin" objectLeft="123" objectTop="535" objectRight="435" objectBottom="580" clickPointX="298" clickPointY="545" imageFileName="tcvi439671822964.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>
